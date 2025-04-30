@@ -20,6 +20,20 @@ This project is a Python-based network exploration and security auditing tool de
   - Sorted RTT benchmarks
   - Frequency of observed web servers and certificate authorities
   - TLS version and security feature adoption rates
+  - 
+## Setup
+
+```bash
+git clone https://github.com/yourusername/network-security-auditor.git
+cd network-security-auditor
+
+python3 -m venv venv
+source venv/bin/activate  # For bash/zsh
+# or
+source venv/bin/activate.csh  # For tcsh
+
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -29,3 +43,4 @@ python3 scan.py input_domains.txt output.json
 
 # Generate a report from scan results
 python3 report.py output.json report.txt
+```

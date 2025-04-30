@@ -1,0 +1,2 @@
+maxminddb==2.6.3
+texttable==1.7.0

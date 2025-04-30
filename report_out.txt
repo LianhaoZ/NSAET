@@ -1,0 +1,1299 @@
+=== Domain Scan Results ===
++--------------------------------+----------------------------------------------------+
+| Domain                         | Scan Results                                       |
++--------------------------------+----------------------------------------------------+
+| acm.org                        | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, Unknown"                    |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "cloudflare",                     |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "104.17.79.30",                                |
+|                                |     "104.17.78.30"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": false,                      |
+|                                |   "root_ca": "DigiCert Inc",                       |
+|                                |   "rtt_range": [                                   |
+|                                |     2.0117759704589844,                            |
+|                                |     2.0809173583984375                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741626.6566532,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| amazon.com                     | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Ashburn, Virginia, United States"             |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Server",                         |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "205.251.242.103",                             |
+|                                |     "52.94.236.248",                               |
+|                                |     "54.239.28.85"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "s3-console-us-                                |
+|                                | standard.console.aws.amazon.com."                  |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "DigiCert Inc",                       |
+|                                |   "rtt_range": [                                   |
+|                                |     17.282485961914062,                            |
+|                                |     17.58718490600586                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741591.6709728,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| cra.org                        | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Ashburn, Virginia, United States"             |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Pagely-ARES/1.21.13",            |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "54.242.59.162"                                |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "ec2-54-242-59-162.compute-1.amazonaws.com."   |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     24.24025535583496,                             |
+|                                |     24.24025535583496                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741628.3959754,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| ebpf.io                        | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, Unknown"                    |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "cloudflare",                     |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "104.26.4.27",                                 |
+|                                |     "104.26.5.27",                                 |
+|                                |     "172.67.71.235"                                |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2606:4700:20::ac43:47eb",                     |
+|                                |     "2606:4700:20::681a:41b",                      |
+|                                |     "2606:4700:20::681a:51b"                       |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Google Trust Services LLC",          |
+|                                |   "rtt_range": [                                   |
+|                                |     1.2867450714111328,                            |
+|                                |     2.061128616333008                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741643.571532,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| en.wikipedia.org               | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": null,                             |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "208.80.154.224",                              |
+|                                |     "208.80.153.224",                              |
+|                                |     "185.15.58.224"                                |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2620:0:861:ed1a::1",                          |
+|                                |     "2620:0:860:ed1a::1",                          |
+|                                |     "2a02:ec80:600:ed1a::1"                        |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "text-lb.eqiad.wikimedia.org.",                |
+|                                |     "text-lb.codfw.wikimedia.org.",                |
+|                                |     "text-lb.drmrs.wikimedia.org."                 |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": false,                      |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     18.10455322265625,                             |
+|                                |     99.58958625793457                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741589.2310798,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| fandom.com                     | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Varnish",                        |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "199.232.208.194",                             |
+|                                |     "199.232.212.194"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "GlobalSign",                         |
+|                                |   "rtt_range": [                                   |
+|                                |     3.050088882446289,                             |
+|                                |     4.146814346313477                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741599.7401285,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| ieee.org                       | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Hoffman, New Jersey, United States"           |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "BigIP",                          |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "140.98.193.152"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "access.ieee.org.",                            |
+|                                |     "ieee-access.ieee.org.",                       |
+|                                |     "access.ieee.com\\032.ieee.org.",              |
+|                                |     "ieeeaccess.ieee.com.ieee.org.",               |
+|                                |     "csmagent.ieee.org.",                          |
+|                                |     "seabass.ieee.org.",                           |
+|                                |     "training.ieee.org.",                          |
+|                                |     "www.ieeex.net.",                              |
+|                                |     "ieeex.net.",                                  |
+|                                |     "www.ieeex.org.",                              |
+|                                |     "ieeex.org.",                                  |
+|                                |     "hkn.org.",                                    |
+|                                |     "young-professionals.ieee.org.",               |
+|                                |     "def.ieee.org.",                               |
+|                                |     "quantumai.ieee.org.",                         |
+|                                |     "youngprofessionals.ieee.org.",                |
+|                                |     "ieeespokane.com.",                            |
+|                                |     "www.ieeebiometricscertification.org.",        |
+|                                |     "ieeecollabratec.ieee.org.",                   |
+|                                |     "annualreport.ieee.org.",                      |
+|                                |     "www.ieee-collabratec.org.",                   |
+|                                |     "*.ieee-collabratec.org.",                     |
+|                                |     "theinstitute.ieee.org.",                      |
+|                                |     "prod-redirector.ieee.org.",                   |
+|                                |     "inside.ieee.org.",                            |
+|                                |     "standard.ieee.org.",                          |
+|                                |     "uv.ieee.org.",                                |
+|                                |     "redirect.ieee.org.",                          |
+|                                |     "milestonemaps.ieee.org.",                     |
+|                                |     "dataport.ieee.org.",                          |
+|                                |     "www.hkn.org.",                                |
+|                                |     "techforhumanity.ieee.org.",                   |
+|                                |     "www.techforhumanity.ieee.org.",               |
+|                                |     "ieeesight.org.",                              |
+|                                |     "www.ieeesight.org."                           |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "GlobalSign",                         |
+|                                |   "rtt_range": [                                   |
+|                                |     30.647993087768555,                            |
+|                                |     30.647993087768555                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741631.0498552,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| illinois.edu                   | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Champaign, Illinois, United States"           |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Apache/2.4.62 (Red Hat           |
+|                                | Enterprise Linux) OpenSSL/3.2.2",                  |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "130.126.157.20"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2620:0:e00:4206::14"                          |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "20.0-25.157.126.130.in-addr.arpa.",           |
+|                                |     "alma.techservices.illinois.edu."              |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     6.228446960449219,                             |
+|                                |     6.228446960449219                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741622.9329762,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| imdb.com                       | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Ashburn, Virginia, United States"             |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Server",                         |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "52.94.225.248",                               |
+|                                |     "52.94.228.167",                               |
+|                                |     "52.94.237.74"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Amazon",                             |
+|                                |   "rtt_range": [                                   |
+|                                |     17.31562614440918,                             |
+|                                |     19.11759376525879                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741597.6811626,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| instagram.com                  | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Dallas, Texas, United States",                |
+|                                |     "Southfield, Michigan, United States",         |
+|                                |     "Saint-Denis, \u00cele-de-France, France",     |
+|                                |     "Chicago, Illinois, United States",            |
+|                                |     "Minneapolis, Minnesota, United States"        |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "proxygen-bolt",                  |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "157.240.249.174",                             |
+|                                |     "57.144.174.34",                               |
+|                                |     "157.240.26.174",                              |
+|                                |     "57.144.172.34",                               |
+|                                |     "31.13.93.174",                                |
+|                                |     "157.240.202.174"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2a03:2880:f275:e9:face:b00c:0:4420",          |
+|                                |     "2a03:2880:f357:22:face:b00c:0:4420",          |
+|                                |     "2a03:2880:f23a:e5:face:b00c:0:4420",          |
+|                                |     "2a03:2880:f356:22:face:b00c:0:4420",          |
+|                                |     "2a03:2880:f234:e5:face:b00c:0:4420",          |
+|                                |     "2a03:2880:f27b:1e4:face:b00c:0:4420"          |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "instagram-p42-shv-01-ord5.fbcdn.net.",        |
+|                                |     "instagram-p42-shv-03-ord5.fbcdn.net.",        |
+|                                |     "instagram-p42-shv-01-msp1.fbcdn.net.",        |
+|                                |     "instagram-p42-shv-01-det1.fbcdn.net.",        |
+|                                |     "instagram-p42-shv-02-dfw5.fbcdn.net.",        |
+|                                |     "instagram-p42-shv-02-cdg4.fbcdn.net."         |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "DigiCert Inc",                       |
+|                                |   "rtt_range": [                                   |
+|                                |     1.2736320495605469,                            |
+|                                |     88.82808685302734                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741604.4144845,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| kellogg.northwestern.edu       | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Villa Park, Illinois, United States"          |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Microsoft-IIS/10.0",             |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "165.124.147.150"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "www.kellogg.northwestern.edu."                |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "The USERTRUST Network",              |
+|                                |   "rtt_range": [                                   |
+|                                |     0.31065940856933594,                           |
+|                                |     0.31065940856933594                            |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741617.5621257,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| kernel.org                     | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Dallas, Texas, United States"                 |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "nginx",                          |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "139.178.84.217"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2604:1380:4641:c500::1"                       |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "dfw.source.kernel.org."                       |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     20.64990997314453,                             |
+|                                |     20.64990997314453                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741641.511198,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| lab.senlin.dev                 | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, Unknown"                    |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "cloudflare",                     |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "172.67.197.131",                              |
+|                                |     "104.21.60.142",                               |
+|                                |     "188.114.97.2",                                |
+|                                |     "188.114.96.2"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2606:4700:3033::ac43:c583",                   |
+|                                |     "2606:4700:3037::6815:3c8e",                   |
+|                                |     "2a06:98c1:3121::2",                           |
+|                                |     "2a06:98c1:3120::2"                            |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": false,                      |
+|                                |   "root_ca": "Google Trust Services LLC",          |
+|                                |   "rtt_range": [                                   |
+|                                |     1.2617111206054688,                            |
+|                                |     2.070903778076172                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741612.1735098,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| lwn.net                        | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Cedar Knolls, New Jersey, United States"      |
+|                                |   ],                                               |
+|                                |   "hsts": true,                                    |
+|                                |   "http_server": "Apache/2.4.62 (CentOS Stream)    |
+|                                | OpenSSL/3.2.2",                                    |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "173.255.236.65"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2600:3c03::f03c:93ff:febd:80f5"               |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "prodcs.lwn.net."                              |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     21.445274353027344,                            |
+|                                |     21.445274353027344                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741633.4733489,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| mccormick.northwestern.edu     | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Villa Park, Illinois, United States"          |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Apache/2.4.41 (Ubuntu)",         |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "165.124.149.20"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "davinci20.tech.northwestern.edu."             |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "The USERTRUST Network",              |
+|                                |   "rtt_range": [                                   |
+|                                |     0.8189678192138672,                            |
+|                                |     0.8189678192138672                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741615.8979316,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| networks.cs.northwestern.edu   | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Caddy",                          |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "165.124.184.154"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "helen.cs.northwestern.edu."                   |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": false,                      |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     0.26488304138183594,                           |
+|                                |     0.26488304138183594                            |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741614.2517002,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| news.ycombinator.com           | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "nginx",                          |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "209.216.230.207"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2606:7100:1:67::26"                           |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "news.ycombinator.com."                        |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     49.73459243774414,                             |
+|                                |     49.73459243774414                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741636.1410928,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| northwestern.edu               | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Skokie, Illinois, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "BigIP",                          |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "129.105.136.48"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "evcommon-caesar-vip.northwestern.edu.",       |
+|                                |     "cnair.northwestern.edu."                      |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "The USERTRUST Network",              |
+|                                |   "rtt_range": [                                   |
+|                                |     1.2984275817871094,                            |
+|                                |     1.2984275817871094                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741608.312288,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| one.one.one.one                | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, Unknown"                    |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "cloudflare",                     |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "1.1.1.1",                                     |
+|                                |     "1.0.0.1"                                      |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2606:4700:4700::1111",                        |
+|                                |     "2606:4700:4700::1001"                         |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "one.one.one.one.",                            |
+|                                |     "one.one.one.one."                             |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Google Trust Services LLC",          |
+|                                |   "rtt_range": [                                   |
+|                                |     1.407623291015625,                             |
+|                                |     2.0461082458496094                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741645.9546113,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| pinterest.com                  | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "San Francisco, California, United States"     |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": null,                             |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "151.101.0.84",                                |
+|                                |     "151.101.64.84",                               |
+|                                |     "151.101.128.84",                              |
+|                                |     "151.101.192.84"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "DigiCert Inc",                       |
+|                                |   "rtt_range": [                                   |
+|                                |     2.9897689819335938,                            |
+|                                |     3.6776065826416016                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741601.245277,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| reddit.com                     | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "San Francisco, California, United States"     |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "snooserv",                       |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "151.101.129.140",                             |
+|                                |     "151.101.193.140",                             |
+|                                |     "151.101.1.140",                               |
+|                                |     "151.101.65.140"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2a04:4e42:600::396",                          |
+|                                |     "2a04:4e42::396",                              |
+|                                |     "2a04:4e42:200::396",                          |
+|                                |     "2a04:4e42:400::396"                           |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "DigiCert Inc",                       |
+|                                |   "rtt_range": [                                   |
+|                                |     2.991199493408203,                             |
+|                                |     3.6766529083251953                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741639.8723419,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| rust-lang.org                  | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "AmazonS3",                       |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "3.168.40.11",                                 |
+|                                |     "3.168.40.68",                                 |
+|                                |     "3.168.40.70",                                 |
+|                                |     "3.168.40.80",                                 |
+|                                |     "108.157.150.84",                              |
+|                                |     "108.157.150.125",                             |
+|                                |     "108.157.150.87",                              |
+|                                |     "108.157.150.85",                              |
+|                                |     "54.230.202.5",                                |
+|                                |     "54.230.202.54",                               |
+|                                |     "54.230.202.34",                               |
+|                                |     "54.230.202.72",                               |
+|                                |     "3.165.113.114",                               |
+|                                |     "3.165.113.109",                               |
+|                                |     "3.165.113.87",                                |
+|                                |     "3.165.113.20"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2600:9000:27fb:7800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:9c00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:aa00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:1200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:2000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:5000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:6200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:7000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:ec00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:1400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:6e00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:8000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:a400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:bc00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:b400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:fe00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:5800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:e400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:1a00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:ae00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:f200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:8200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:ba00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:3e00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:c000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:1c00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:e00:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:27fb:d000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:2200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:8400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:da00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:6800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:3a00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:ea00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:6400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:7c00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:9a00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:e200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:5200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:b400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:f800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:7e00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:fc00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:5800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:24f9:f200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:2400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:e000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:fc00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:d800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:7200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:4000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:f600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:e200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:400:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:27fb:8800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:4800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:1000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:3400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:600:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:27fb:200:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:27fb:6600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:5a00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:6200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:6e00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:4000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:5200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:4400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:9800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:c600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2043:6a00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:3600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:a00:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:27fb:4c00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:800:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:27fb:0:17:7348:eec0:93a1",          |
+|                                |     "2600:9000:27fb:b200:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:3c00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:2c00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:e800:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:5e00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:4400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:9000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:a600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:27fb:6a00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:b600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:a000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:2e00:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:a400:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:2600:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:600:17:7348:eec0:93a1",        |
+|                                |     "2600:9000:2726:8000:17:7348:eec0:93a1",       |
+|                                |     "2600:9000:2726:b400:17:7348:eec0:93a1"        |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "server-3-168-40-11.ord58.r.cloudfront.net.",  |
+|                                |     "server-3-168-40-68.ord58.r.cloudfront.net.",  |
+|                                |     "server-3-168-40-70.ord58.r.cloudfront.net.",  |
+|                                |     "server-3-168-40-80.ord58.r.cloudfront.net.",  |
+|                                | "server-108-157-150-84.mci50.r.cloudfront.net.",   |
+|                                | "server-108-157-150-125.mci50.r.cloudfront.net.",  |
+|                                | "server-108-157-150-87.mci50.r.cloudfront.net.",   |
+|                                | "server-108-157-150-85.mci50.r.cloudfront.net.",   |
+|                                |     "server-54-230-202-5.msp50.r.cloudfront.net.", |
+|                                | "server-54-230-202-54.msp50.r.cloudfront.net.",    |
+|                                | "server-54-230-202-34.msp50.r.cloudfront.net.",    |
+|                                | "server-54-230-202-72.msp50.r.cloudfront.net.",    |
+|                                | "server-3-165-113-114.cdg50.r.cloudfront.net.",    |
+|                                | "server-3-165-113-109.cdg50.r.cloudfront.net.",    |
+|                                |     "server-3-165-113-87.cdg50.r.cloudfront.net.", |
+|                                |     "server-3-165-113-20.cdg50.r.cloudfront.net."  |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Amazon",                             |
+|                                |   "rtt_range": [                                   |
+|                                |     1.6717910766601562,                            |
+|                                |     96.98224067687988                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741649.3529673,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| senlin.dev                     | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "San Francisco, California, United States",    |
+|                                |     "Unknown, California, United States"           |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "GitHub.com",                     |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "185.199.109.153",                             |
+|                                |     "185.199.110.153",                             |
+|                                |     "185.199.111.153",                             |
+|                                |     "185.199.108.153"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2606:50c0:8003::153",                         |
+|                                |     "2606:50c0:8000::153",                         |
+|                                |     "2606:50c0:8001::153",                         |
+|                                |     "2606:50c0:8002::153"                          |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "cdn-185-199-109-153.github.com.",             |
+|                                |     "cdn-185-199-110-153.github.com.",             |
+|                                |     "cdn-185-199-111-153.github.com.",             |
+|                                |     "cdn-185-199-108-153.github.com."              |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     2.9649734497070312,                            |
+|                                |     3.6656856536865234                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741610.351722,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| stackoverflow.com              | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, Unknown"                    |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "cloudflare",                     |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "172.64.155.249",                              |
+|                                |     "104.18.32.7"                                  |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     1.4159679412841797,                            |
+|                                |     1.9793510437011719                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741647.426915,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| stevetarzia.com                | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Apache/2.4.62 ()                 |
+|                                | OpenSSL/1.0.2k-fips PHP/5.4.16",                   |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "3.143.61.245"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "waffles.stevetarzia.com."                     |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Internet Security Research Group",   |
+|                                |   "rtt_range": [                                   |
+|                                |     9.870767593383789,                             |
+|                                |     9.870767593383789                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741624.8337843,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| tripadvisor.com                | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "San Francisco, California, United States"     |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Varnish",                        |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "151.101.130.28",                              |
+|                                |     "151.101.194.28",                              |
+|                                |     "151.101.2.28",                                |
+|                                |     "151.101.66.28"                                |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "GlobalSign",                         |
+|                                |   "rtt_range": [                                   |
+|                                |     3.0066967010498047,                            |
+|                                |     4.120349884033203                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741602.756652,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| uchicago.edu                   | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Ashburn, Virginia, United States"             |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Apache",                         |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "3.215.148.80"                                 |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "ec2-3-215-148-80.compute-1.amazonaws.com."    |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": false,                      |
+|                                |   "root_ca": "The USERTRUST Network",              |
+|                                |   "rtt_range": [                                   |
+|                                |     21.56233787536621,                             |
+|                                |     21.56233787536621                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741620.8411853,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| users.cs.northwestern.edu      | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Chicago, Illinois, United States"             |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Apache",                         |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "129.105.44.20"                                |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "web1.cs.northwestern.edu."                    |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "The USERTRUST Network",              |
+|                                |   "rtt_range": [                                   |
+|                                |     0.3609657287597656,                            |
+|                                |     0.3609657287597656                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741619.203193,                  |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| walmart.com                    | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Chicago, Illinois, United States",            |
+|                                |     "Elk Grove Village, Illinois, United States",  |
+|                                |     "Frankfurt am Main, Hesse, Germany",           |
+|                                |     "Paris, \u00cele-de-France, France"            |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "AkamaiGHost",                    |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "23.198.240.193",                              |
+|                                |     "184.51.216.146",                              |
+|                                |     "23.198.244.190",                              |
+|                                |     "23.203.41.111",                               |
+|                                |     "23.46.188.162",                               |
+|                                |     "23.209.208.204"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "rdns_names": [                                  |
+|                                |     "a23-198-240-193.deploy.static.akamaitechnolog |
+|                                | ies.com.",                                         |
+|                                |     "a184-51-216-146.deploy.static.akamaitechnolog |
+|                                | ies.com.",                                         |
+|                                |     "a23-198-244-190.deploy.static.akamaitechnolog |
+|                                | ies.com.",                                         |
+|                                |     "a23-203-41-111.deploy.static.akamaitechnologi |
+|                                | es.com.",                                          |
+|                                |     "a23-46-188-162.deploy.static.akamaitechnologi |
+|                                | es.com.",                                          |
+|                                |     "a23-209-208-204.deploy.static.akamaitechnolog |
+|                                | ies.com."                                          |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "GlobalSign",                         |
+|                                |   "rtt_range": [                                   |
+|                                |     1.1458396911621094,                            |
+|                                |     106.23526573181152                             |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741606.3687642,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| yelp.com                       | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Chicago, Illinois, United States",            |
+|                                |     "Paris, \u00cele-de-France, France"            |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "Varnish",                        |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "146.75.76.116",                               |
+|                                |     "151.101.120.116",                             |
+|                                |     "199.232.168.116"                              |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [],                            |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "DigiCert Inc",                       |
+|                                |   "rtt_range": [                                   |
+|                                |     3.6382675170898438,                            |
+|                                |     91.37797355651855                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741593.8996673,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+| youtube.com                    | {                                                  |
+|                                |   "geo_locations": [                               |
+|                                |     "Unknown, Unknown, United States"              |
+|                                |   ],                                               |
+|                                |   "hsts": false,                                   |
+|                                |   "http_server": "ESF",                            |
+|                                |   "insecure_http": true,                           |
+|                                |   "ipv4_addresses": [                              |
+|                                |     "142.250.191.238",                             |
+|                                |     "172.217.2.46",                                |
+|                                |     "142.250.190.110",                             |
+|                                |     "142.250.105.93",                              |
+|                                |     "142.250.105.91",                              |
+|                                |     "142.250.105.136",                             |
+|                                |     "142.250.105.190",                             |
+|                                |     "142.250.191.142",                             |
+|                                |     "142.250.191.206",                             |
+|                                |     "142.250.190.46",                              |
+|                                |     "142.251.116.91",                              |
+|                                |     "142.251.116.190",                             |
+|                                |     "142.251.116.93",                              |
+|                                |     "142.251.116.136",                             |
+|                                |     "142.250.190.78",                              |
+|                                |     "142.250.69.110",                              |
+|                                |     "172.217.20.206"                               |
+|                                |   ],                                               |
+|                                |   "ipv6_addresses": [                              |
+|                                |     "2607:f8b0:4009:81b::200e",                    |
+|                                |     "2607:f8b0:4009:804::200e",                    |
+|                                |     "2607:f8b0:4009:81c::200e",                    |
+|                                |     "2607:f8b0:4009:817::200e",                    |
+|                                |     "2607:f8b0:4002:c1b::5d",                      |
+|                                |     "2607:f8b0:4002:c1b::5b",                      |
+|                                |     "2607:f8b0:4002:c1b::be",                      |
+|                                |     "2607:f8b0:4002:c1b::88",                      |
+|                                |     "2607:f8b0:4009:801::200e",                    |
+|                                |     "2607:f8b0:4009:809::200e",                    |
+|                                |     "2607:f8b0:4023:1009::5d",                     |
+|                                |     "2607:f8b0:4023:1009::88",                     |
+|                                |     "2607:f8b0:4023:1009::5b",                     |
+|                                |     "2607:f8b0:4023:1009::be",                     |
+|                                |     "2607:f8b0:4009:80a::200e",                    |
+|                                |     "2607:f8b0:4020:802::200e",                    |
+|                                |     "2a00:1450:4007:810::200e"                     |
+|                                |   ],                                               |
+|                                |   "rdns_names": [                                  |
+|                                |     "ord38s32-in-f14.1e100.net.",                  |
+|                                |     "ord37s35-in-f14.1e100.net.",                  |
+|                                |     "yt-in-f93.1e100.net.",                        |
+|                                |     "yt-in-f91.1e100.net.",                        |
+|                                |     "yt-in-f136.1e100.net.",                       |
+|                                |     "yt-in-f190.1e100.net.",                       |
+|                                |     "ord38s29-in-f14.1e100.net.",                  |
+|                                |     "ord38s31-in-f14.1e100.net.",                  |
+|                                |     "ord37s33-in-f14.1e100.net.",                  |
+|                                |     "rt-in-f91.1e100.net.",                        |
+|                                |     "rt-in-f190.1e100.net.",                       |
+|                                |     "rt-in-f93.1e100.net.",                        |
+|                                |     "rt-in-f136.1e100.net.",                       |
+|                                |     "ord37s34-in-f14.1e100.net.",                  |
+|                                |     "pnyula-ab-in-f14.1e100.net."                  |
+|                                |   ],                                               |
+|                                |   "redirect_to_https": true,                       |
+|                                |   "root_ca": "Google Trust Services LLC",          |
+|                                |   "rtt_range": [                                   |
+|                                |     1.064300537109375,                             |
+|                                |     89.82586860656738                              |
+|                                |   ],                                               |
+|                                |   "scan_time": 1741741587.0217245,                 |
+|                                |   "tls_versions": [                                |
+|                                |     "TLSv1.0",                                     |
+|                                |     "TLSv1.1",                                     |
+|                                |     "TLSv1.2",                                     |
+|                                |     "TLSv1.3"                                      |
+|                                |   ]                                                |
+|                                | }                                                  |
++--------------------------------+----------------------------------------------------+
+
+=== RTT Ranges (Fastest to Slowest) ===
++------------------------------+--------------+--------------+
+| Domain                       | Min RTT (ms) | Max RTT (ms) |
++------------------------------+--------------+--------------+
+| cra.org                      | 24.240       | 24.240       |
++------------------------------+--------------+--------------+
+| ieee.org                     | 30.648       | 30.648       |
++------------------------------+--------------+--------------+
+| illinois.edu                 | 6.228        | 6.228        |
++------------------------------+--------------+--------------+
+| kellogg.northwestern.edu     | 0.311        | 0.311        |
++------------------------------+--------------+--------------+
+| kernel.org                   | 20.650       | 20.650       |
++------------------------------+--------------+--------------+
+| lwn.net                      | 21.445       | 21.445       |
++------------------------------+--------------+--------------+
+| mccormick.northwestern.edu   | 0.819        | 0.819        |
++------------------------------+--------------+--------------+
+| networks.cs.northwestern.edu | 0.265        | 0.265        |
++------------------------------+--------------+--------------+
+| news.ycombinator.com         | 49.735       | 49.735       |
++------------------------------+--------------+--------------+
+| northwestern.edu             | 1.298        | 1.298        |
++------------------------------+--------------+--------------+
+| stevetarzia.com              | 9.871        | 9.871        |
++------------------------------+--------------+--------------+
+| uchicago.edu                 | 21.562       | 21.562       |
++------------------------------+--------------+--------------+
+| users.cs.northwestern.edu    | 0.361        | 0.361        |
++------------------------------+--------------+--------------+
+| acm.org                      | 2.012        | 2.081        |
++------------------------------+--------------+--------------+
+| amazon.com                   | 17.282       | 17.587       |
++------------------------------+--------------+--------------+
+| stackoverflow.com            | 1.416        | 1.979        |
++------------------------------+--------------+--------------+
+| one.one.one.one              | 1.408        | 2.046        |
++------------------------------+--------------+--------------+
+| reddit.com                   | 2.991        | 3.677        |
++------------------------------+--------------+--------------+
+| pinterest.com                | 2.990        | 3.678        |
++------------------------------+--------------+--------------+
+| senlin.dev                   | 2.965        | 3.666        |
++------------------------------+--------------+--------------+
+| ebpf.io                      | 1.287        | 2.061        |
++------------------------------+--------------+--------------+
+| lab.senlin.dev               | 1.262        | 2.071        |
++------------------------------+--------------+--------------+
+| fandom.com                   | 3.050        | 4.147        |
++------------------------------+--------------+--------------+
+| tripadvisor.com              | 3.007        | 4.120        |
++------------------------------+--------------+--------------+
+| imdb.com                     | 17.316       | 19.118       |
++------------------------------+--------------+--------------+
+| en.wikipedia.org             | 18.105       | 99.590       |
++------------------------------+--------------+--------------+
+| instagram.com                | 1.274        | 88.828       |
++------------------------------+--------------+--------------+
+| yelp.com                     | 3.638        | 91.378       |
++------------------------------+--------------+--------------+
+| youtube.com                  | 1.064        | 89.826       |
++------------------------------+--------------+--------------+
+| rust-lang.org                | 1.672        | 96.982       |
++------------------------------+--------------+--------------+
+| walmart.com                  | 1.146        | 106.235      |
++------------------------------+--------------+--------------+
+
+=== Root CA Popularity ===
++----------------------------------+-------+
+| Root CA                          | Count |
++----------------------------------+-------+
+| Internet Security Research Group | 10    |
++----------------------------------+-------+
+| DigiCert Inc                     | 6     |
++----------------------------------+-------+
+| The USERTRUST Network            | 5     |
++----------------------------------+-------+
+| Google Trust Services LLC        | 4     |
++----------------------------------+-------+
+| GlobalSign                       | 4     |
++----------------------------------+-------+
+| Amazon                           | 2     |
++----------------------------------+-------+
+
+=== HTTP Server Popularity ===
++--------------------------------------------------------+-------+
+| HTTP Server                                            | Count |
++--------------------------------------------------------+-------+
+| cloudflare                                             | 5     |
++--------------------------------------------------------+-------+
+| Varnish                                                | 3     |
++--------------------------------------------------------+-------+
+| Server                                                 | 2     |
++--------------------------------------------------------+-------+
+| BigIP                                                  | 2     |
++--------------------------------------------------------+-------+
+| nginx                                                  | 2     |
++--------------------------------------------------------+-------+
+| Apache                                                 | 2     |
++--------------------------------------------------------+-------+
+| Pagely-ARES/1.21.13                                    | 1     |
++--------------------------------------------------------+-------+
+| Apache/2.4.62 (Red Hat Enterprise Linux) OpenSSL/3.2.2 | 1     |
++--------------------------------------------------------+-------+
+| proxygen-bolt                                          | 1     |
++--------------------------------------------------------+-------+
+| Microsoft-IIS/10.0                                     | 1     |
++--------------------------------------------------------+-------+
+| Apache/2.4.62 (CentOS Stream) OpenSSL/3.2.2            | 1     |
++--------------------------------------------------------+-------+
+| Apache/2.4.41 (Ubuntu)                                 | 1     |
++--------------------------------------------------------+-------+
+| Caddy                                                  | 1     |
++--------------------------------------------------------+-------+
+| snooserv                                               | 1     |
++--------------------------------------------------------+-------+
+| AmazonS3                                               | 1     |
++--------------------------------------------------------+-------+
+| GitHub.com                                             | 1     |
++--------------------------------------------------------+-------+
+| Apache/2.4.62 () OpenSSL/1.0.2k-fips PHP/5.4.16        | 1     |
++--------------------------------------------------------+-------+
+| AkamaiGHost                                            | 1     |
++--------------------------------------------------------+-------+
+| ESF                                                    | 1     |
++--------------------------------------------------------+-------+
+
+=== TLS and Support Statistics for Part 2(e, f, g, c) ===
++----------------+------------+
+| Feature        | Percentage |
++----------------+------------+
+| SSLv2          | 0.00%      |
++----------------+------------+
+| SSLv3          | 0.00%      |
++----------------+------------+
+| TLSv1.0        | 29.03%     |
++----------------+------------+
+| TLSv1.1        | 35.48%     |
++----------------+------------+
+| TLSv1.2        | 100.00%    |
++----------------+------------+
+| TLSv1.3        | 80.65%     |
++----------------+------------+
+| plain http     | 100.00%    |
++----------------+------------+
+| https redirect | 83.87%     |
++----------------+------------+
+| hsts           | 3.23%      |
++----------------+------------+
+| ipv6           | 41.94%     |
++----------------+------------+

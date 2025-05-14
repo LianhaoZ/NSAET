@@ -20,7 +20,7 @@ This project is a Python-based network exploration and security auditing tool de
   - Sorted RTT benchmarks
   - Frequency of observed web servers and certificate authorities
   - TLS version and security feature adoption rates
-  - 
+  
 ## Setup
 
 ```bash

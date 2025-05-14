@@ -24,8 +24,7 @@ This project is a Python-based network exploration and security auditing tool de
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/network-security-auditor.git
-cd network-security-auditor
+git clone https://github.com/LianhaoZ/NSAET.git
 
 python3 -m venv venv
 source venv/bin/activate  # For bash/zsh
